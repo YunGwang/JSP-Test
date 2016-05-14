@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<FORM method = post namte = form1 action = userInput.jsp> 
+<!-- post와 get 2가지가 있다. post는 안 보이고 get은 보인다. userInput.jsp에 보낸다-->
+이름 : <input type = text size = 10 name = userName> <br>
+직업 : <Select name = job>
+	<option selected>학생</option> <!-- 기본으로 선택되어있다. -->
+	<option>백수</option>
+	<option>집돌이 / 집순이</option>
+</Select> <br>
+관심분야 : <input type = checkbox name = favorite value = "정치">정치</input>
+<input type = checkbox name = favorite value = "영화">영화</input>
+<input type = checkbox name = favorite value = "소설">소설</input><br>
+<input type = submit value = "보내기"> 
+<input type = reset value = "초기화">
+</FORM>
+</body>
+</html>
